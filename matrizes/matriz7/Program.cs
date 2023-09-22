@@ -23,7 +23,7 @@ namespace matriz7 {
             int chosenRow = int.Parse(Console.ReadLine()) - 1;
             int lastOne = army[chosenRow, soldier - 1];
             for (int j=soldier-1; j>0; j--) {
-                army[chosenRow, j] = army[chosenRow, j -1];
+                army[chosenRow, j] = army[chosenRow, j -1]; 
             }
 
             army[chosenRow, 0] = lastOne;
