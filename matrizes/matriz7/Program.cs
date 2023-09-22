@@ -3,7 +3,7 @@
 namespace matriz7 {
     class Program {
         static void Main(string[] args) {
-            //
+            // Teste
             Console.Write("Insira a quantidade de filas: ");
             int line = int.Parse(Console.ReadLine());
 
